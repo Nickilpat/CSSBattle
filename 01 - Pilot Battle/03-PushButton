@@ -1,0 +1,40 @@
+<div id="rectangle"></div>
+<div id="background_ring"></div>
+<div id="centered_circle"></div>
+<div id="bullseye"/>
+<style>
+  body{
+    margin: 0;
+    background: #6592CF;
+  }
+  #rectangle {
+    margin: auto;
+    margin-top: 25vh;
+    width: 300px;
+    height: 50vh;
+    background: #243D83;
+  }
+  #background_ring{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #6592CF;
+    transform: translateY(-200px);
+    margin:auto;
+  }
+  #centered_circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #243D83;
+    transform: translateY(-400px);
+    margin:auto;
+  } 
+  #bullseye{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #EEB850;
+    transform: translateY(-500px);
+    margin:auto;
+  }
