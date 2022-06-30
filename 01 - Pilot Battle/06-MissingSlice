@@ -1,0 +1,31 @@
+<div id="ul"/>
+<div id="ur"/>
+<div id="ll"/>
+<style>
+  body{
+    margin: 0;
+    background: #E3516E;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  #ul{
+    background: #51B5A9;
+    border-radius: 100px 0 0 0;
+    top: 50px;
+    left: 100px;
+  }
+  #ur{
+    background: #FADE8B;
+    border-radius: 0 100px 0 0;
+    left: 100px
+  }
+  #ll{
+    background: #F7F3D7;
+    border-radius: 0 0 0 100px;
+    left: -100px;
+    top: 100px;   
+  }  
+</style>
