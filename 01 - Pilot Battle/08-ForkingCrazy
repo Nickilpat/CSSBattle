@@ -1,0 +1,60 @@
+<div id="tips">
+  <div id="tip"></div>
+  <div id="tip"></div>
+  <div id=tip></div>
+  <div id=tip></div>
+</div>
+<div id="head">
+  <div id="gap"></div>
+  <div id="gap"></div>
+  <div id="gap"></div>
+</div>
+<div id="stem"></div>
+<style>
+  body{
+    background: #6592CF;
+  }
+  div {
+    display: flex;
+  }
+  #stem{
+    position: relative;
+    right: -182;
+    top: -20;
+    width: 20px;
+    height: 60px;
+    background: #060F55;
+  }
+
+  #tips{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    background: #6592CF;
+    margin-top: 50px;
+    margin-left: 102px
+  }
+  #tip{
+    width:20;
+    height:20;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: #060F55;
+  }
+  #gap{
+    width:20px;
+    height:103px;
+    background: #6592CF;
+    margin-left: 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  #head{
+    position: relative;
+    width: 140px;
+    height: 193px;
+    top: -13px;
+    left: 122px;
+    border-radius: 0 0 70px 70px;
+    background: #060F55;
+  }
+</style>
