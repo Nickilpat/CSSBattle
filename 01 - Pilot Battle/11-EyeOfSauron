@@ -1,0 +1,49 @@
+<div id="left"></div>
+<div id="center"></div>
+<div id="dot"></div>
+<div id="right"></div>
+<style>
+  body{
+    background: #191210
+  }
+  div {
+    width: 60px;
+    height: 30px;
+    background: #191210;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  #left{
+    border-radius: 0px 0 50px 50px;
+    border: 20px solid #ECA03D;
+    border-top: 0;
+    top: 175px;
+    left: 25%;
+  }
+  #center{
+    background:#191210;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 20px solid #ECA03D;
+  }
+  #dot{
+    background: #84271C;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  #right{
+    border-radius: 50px 50px 0 0;
+    border: 20px solid #ECA03D;
+    border-bottom: 0;
+    top: 125px;
+    left: 75%
+  }
+</style>
