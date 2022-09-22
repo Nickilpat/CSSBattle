@@ -1,43 +1,36 @@
-<div class="left dot"></div>
-<div class="left lower curve"></div>
-<div class="upper curve"></div>
-<div class="right lower curve"></div>
-<div class="right dot"></div>
+<div class="left dot">
+<div class="left lower curve">
+<div class="upper curve">
+<div class="right lower curve">
+<div class="right dot">
 <style>
-  body{
-    background: #F5D6B4;
-  }
+  body{background:#F5D6B4}
   div {
-    width: 60px;
-    height: 30px;
-    position:absolute;
+    width:60;
+    height:30;
+    position:fixed
   }
   .dot{
-    background: #D86F45;
-    width:20px;
-    height: 20px;
-    border-radius: 50%;
-    top: 140px;
+    background:#D86F45;
+    width:20;
+    height:20;
+    border-radius:50%;
+    top:140
   }
   .curve{
-    background: #F5D6B4;
-    border: 20px solid #D86F45;
+    background:#F5D6B4;
+    border:20px solid #D86F45
   }
   .lower{
-    border-radius: 0 0 50px 50px;
-    border-top: 0;
-    top: 150px;
+    border-radius:0 0 50px 50px;
+    border-top:0;
+    top:150
   }
-  .left{
-    left: 70px;
-  }
-  .right{
-    right: 70px;
-  }
+  .left{left:70}
+  .right{right:70}
   .upper{
-    border-radius: 50px 50px 0 0;
-    border-bottom: 0;
-    top: 100px;
-    left: 150px;
+    border-radius:50px 50px 0 0;
+    border-bottom:0;
+    top:100;
+    left:150
   }
-</style>
