@@ -1,0 +1,33 @@
+<div id="a">
+<div id="b">
+<div id="c">
+<div id="d">
+<style>
+  body{
+    background: #F2F2B6;
+  }
+  div {
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    top: 85;
+  }
+  #a{
+    left:80;
+    border-top: 130px solid #FD4602;
+  }
+  #b{    
+    left:60;
+    border-top: 130px solid #FF6D00;
+  }
+  #c{    
+    right:60;
+    border-bottom: 130px solid #FF6D00;
+  }
+  #d{
+    right:80;
+    border-bottom: 130px solid #FD4602;
+  }
+</style>
