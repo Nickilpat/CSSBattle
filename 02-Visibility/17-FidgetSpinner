@@ -4,48 +4,34 @@
 <div class="gc circle" id="t"></div>
 <div class="gc circle" id="b"></div>
 <style>
-  body{
-  background: #09042A
-  }
+  body{background:#09042A}
   div {
-    width: 60px;
+    width:60;
     aspect-ratio:1;
-    background: #09042A;
-    position:fixed;
+    background:#09042A;
+    position:fixed
   }
   .bc{
     top:50%;
     transform:translate(0, -50%);
-    box-shadow: 0 0 0 10px #E78481;
+    box-shadow:0 0 0 10px #E78481
   }
   .gc{
     left:50%;
-    transform:translate(-50%, 0);
-    background: #F5BB9C;
-    box-shadow: 0 0 0 10px #09042A;
-    overflow:hidden;
+    transform:translate(-50%,0);
+    background:#F5BB9C;
+    box-shadow:0 0 0 10px #09042A
   }
-  .circle{
-    border-radius: 50%;
-  }
-  #l{
-    left:110;
-  }
-  #r{
-    right:110;
-  }
-  #t{
-    top:67;
-  }
-  #b{
-    bottom:67
-  }
+  .circle{border-radius:50%}
+  #l{left:110}
+  #r{right:110}
+  #t{top:67}
+  #b{bottom:67}
   #bridge{
-    background: #E78481;
-    height: 50px;
+    background:#E78481;
+    height:50;
     width:60;
     top:50%;
     left:50%;
-    transform:translate(-50%, -50%);
+    transform:translate(-50%,-50%)
   }
-</style>
