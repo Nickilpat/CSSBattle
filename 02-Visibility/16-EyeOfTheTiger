@@ -3,7 +3,7 @@
 <div id="dot"></div>
 <style>
   body{
-    background: #0B2429;
+    background: #0B2429
   }
   div { 
     position:absolute;
