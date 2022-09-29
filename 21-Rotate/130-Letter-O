@@ -5,8 +5,7 @@
     width:60;
     height:120;
     background:transparent;
-    margin-top:70;
-    margin-left:152;
+    margin:70 152;
     border-radius:30px;
     border:20px solid white;
     filter:drop-shadow(-20px 0 0 #6D480A)
