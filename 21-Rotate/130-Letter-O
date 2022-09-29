@@ -1,10 +1,9 @@
 <div>
-<style>
-  body{background:#926927}
+<body bgcolor=#926927>
+<style>}
   div {
     width:60;
     height:120;
-    background:transparent;
     margin:70 152;
     border-radius:30px;
     border:20px solid white;
