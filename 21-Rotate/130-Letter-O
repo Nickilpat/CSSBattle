@@ -1,16 +1,13 @@
-<div></div>
+<div>
 <style>
-  body{
-    background: #926927
-  }
+  body{background:#926927}
   div {
-    width: 60px;
-    height: 120px;
-    background: transparent;
-    margin-top: 70px;
-    margin-left: 152px;
-    border-radius: 30px;
-    border: 20px solid white;
-    filter: drop-shadow(-20px 0 0 #6D480A);
-  }
-</style>
+    width:60;
+    height:120;
+    background:transparent;
+    margin-top:70;
+    margin-left:152;
+    border-radius:30px;
+    border:20px solid white;
+    filter:drop-shadow(-20px 0 0 #6D480A)
+}
