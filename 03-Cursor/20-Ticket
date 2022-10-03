@@ -1,0 +1,55 @@
+<div id="l"></div>
+<div id="r"></div>
+<div class="corner"></div>
+<div class="corner" id="c2"></div>
+<div class="corner" id="c3"></div>
+<div class="corner" id="c4"></div>
+<div class="perf"></div>
+<div class="perf" id="b"></div>
+<style>
+  body{
+    background:#62306D;
+    display:flex;
+    margin:100;
+  }  
+  div {
+    height: 100px;
+    background: #62306D;
+  }
+  #l{
+    width: 186;
+    background:#F7EC7D;
+  }
+  #r{
+    width: 80;
+    background:#E38F66;
+  }
+  .corner{
+    width:40;
+    height:40;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    border-radius:50%;
+  }
+  #c2{
+    right:60;
+  }
+  #c3{
+    right:60;
+    bottom:60;
+  }
+  #c4{
+    bottom:60;
+  }
+  .perf{
+    width:20;
+    height:20;
+    position:absolute;
+    right: 150;
+    transform:translateY(-50%);
+    border-radius:50%;
+  }
+  #b{
+    bottom:80;
+  }
+</style>
