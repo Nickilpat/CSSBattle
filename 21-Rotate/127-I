@@ -1,0 +1,52 @@
+<div class="bar top"></div>
+<div class="bar bottom"></div>
+<div class="top dot" id="r"></div>
+<div class="bottom dot" id="l"></div>
+<div class="center"></div>
+<div class="shade"></div>
+<div class="shade" id="s"></div>
+<body bgcolor=#E3516E>
+<style>
+  div{
+    width:30;
+    height:30;
+    background:#FADE8B;
+    position:absolute;
+  }
+  .bar{
+    width:100;
+    border-radius:20px;
+    left:150
+  }
+  .center{
+    width:50;
+    top:100;
+    left:175;
+    height:100;
+  }
+  .shade{
+    top:100;
+    left:155;
+    height:100;
+    background:#E3516E;
+    border-radius:10px
+  }
+  #s{
+    left:215;
+  }
+  .top{
+    top:70;
+  }
+  .bottom{
+    bottom:70;
+  }
+  .dot{
+    border-radius:50%;
+  }
+  #r{
+    right:110
+  }
+  #l{
+    left:110
+  }
+</style>
