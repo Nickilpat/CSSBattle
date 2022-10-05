@@ -1,0 +1,26 @@
+<div class="green circle"></div>
+<div class="orange cup flipped"></div>
+<div class="green cup flipped"></div>
+<div class="orange circle"></div>
+<div class="orange cup"></div>
+<div class="green circle"></div>
+<div class="orange circle"></div>
+<div class="green cup"></div>
+<style>
+  body{
+    background:#1A4341;
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    margin:90 50 70 70
+  }
+  div{width:50;height:50}
+  
+  .green{background:#998235}
+  
+  .orange{background:#F3AC3C}
+  
+  .circle{border-radius:50%}
+  
+  .cup{border-radius:0 0 50% 50%}
+  
+  .flipped{transform:scaleY(-1)}
