@@ -1,0 +1,36 @@
+<div></div>
+<div id="cream"></div>
+<div class="small" id="red"></div>
+<div class="small" id="tan"></div>
+<body bgcolor=#62306D>
+<style>
+  div{
+    top:80;
+    right:149;
+    width:42;
+    height:140;
+    position:absolute;
+    background: #C5B732;
+    transform:skewX(20deg)
+  }
+  .small{
+    height:50;
+    width:51;
+    top:170
+  }
+  #cream{
+    left:149;
+    background:#FEF9CA;
+    transform:skewX(-20deg)
+  }
+  #red{
+    right:150;
+    background: #AA445F;
+    transform:skewX(40deg)
+  }
+  #tan{
+    left:150;
+    background:#E38F66;
+    transform:skewX(-40deg)
+  }  
+</style>
