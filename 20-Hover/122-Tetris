@@ -1,0 +1,54 @@
+<div b></div>
+<div b></div>
+<div b></div>
+<div b></div>
+<div></div>
+<div b></div>
+<div b></div>
+<div b></div>
+<div b></div>
+<div ></div>
+<div></div>
+<div b></div>
+<div y></div>
+<div y></div>
+<div b></div>
+<div></div>
+<div b></div>
+<div b></div>
+<div y></div>
+<div y></div>
+<div></div>
+<div b></div>
+<div p></div>
+<div b></div>
+<div></div>
+<div></div>
+<div></div>
+<div t></div>
+<div p></div>
+<div p></div>
+<div y></div>
+<div t></div>
+<div t></div>
+<div t></div>
+<div p></div>
+<div t></div>
+<style>
+  body{
+    background:#173889;
+    display:grid;
+    margin:0 50;
+    grid-template-columns:auto auto auto auto auto auto;
+    grid-gap:6px
+  }
+  div {
+    width:45;
+    height:45;
+    background:#EE4F63;
+  }
+  [b]{background:none}
+  [y]{background:#F8DA37}
+  [p]{background:#B069F7}
+  [t]{background:#2CE1EA}
+</style>
