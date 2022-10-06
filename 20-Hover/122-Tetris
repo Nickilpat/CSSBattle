@@ -1,30 +1,30 @@
-<div b></div>
-<div b></div>
-<div b></div>
-<div b></div>
 <div></div>
-<div b></div>
-<div b></div>
-<div b></div>
-<div b></div>
-<div ></div>
 <div></div>
-<div b></div>
-<div y></div>
-<div y></div>
-<div b></div>
 <div></div>
-<div b></div>
-<div b></div>
+<div></div>
+<div r></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div r></div>
+<div r></div>
+<div></div>
 <div y></div>
 <div y></div>
 <div></div>
-<div b></div>
+<div r></div>
+<div></div>
+<div></div>
+<div y></div>
+<div y></div>
+<div r></div>
+<div></div>
 <div p></div>
-<div b></div>
 <div></div>
-<div></div>
-<div></div>
+<div r></div>
+<div r></div>
+<div r></div>
 <div t></div>
 <div p></div>
 <div p></div>
@@ -44,10 +44,9 @@
   }
   div {
     width:45;
-    height:45;
-    background:#EE4F63;
+    height:45
   }
-  [b]{background:none}
+  [r]{background:#EE4F63}
   [y]{background:#F8DA37}
   [p]{background:#B069F7}
   [t]{background:#2CE1EA}
