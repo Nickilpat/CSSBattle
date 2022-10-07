@@ -1,17 +1,12 @@
-<div></div>
 <style>
   body{
-    background: #007065;
-  }
-  div {
-    width:0;
-    height:0;
-    left:75;
-    top:50;
+    background:#007065;
+    left:67;
+    top:42;
     position:absolute;
     border-bottom:100px solid #FFEECF;
     border-right:125px solid transparent;
     border-left:125px solid transparent;
-    filter:drop-shadow(0 50px 0 #F5C181) drop-shadow(0 50px 0 #00A79D);
+    filter:drop-shadow(0 50px 0 #F5C181)drop-shadow(0 50px 0 #00A79D);
   }
 </style>
