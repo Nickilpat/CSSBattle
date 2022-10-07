@@ -1,0 +1,60 @@
+<div class="b r" id="t"></div>
+<div class="b r" id="b"></div>
+<div class="r" id="tw"></div>
+<div class="r" id="bw"></div>
+<div id="l"></div>
+<div id="r"></div>
+<div id="c"></div>
+<style>
+  body{background:#4F77FF}
+  div {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    position:absolute;
+  }
+  .b{
+    background:#1038BF;
+  }
+  .r{
+    width:240;
+    height:50;
+    border-radius:10px;
+  }
+  #t{
+    top:50;
+    right:60;
+  }
+  #b{
+    bottom:50;
+    left:60;
+  }
+  #tw{
+    top:70;
+    left:80
+  }
+  #bw{
+    bottom:70;
+    left:80;
+  }
+  #l{
+    width:20;
+    height:50;
+    left:80;
+    top:110;
+    border-bottom-left-radius:10px;
+  }
+  #r{
+    width:20;
+    height:50;
+    right:80;
+    bottom:110;
+    border-top-right-radius:10px;
+  }
+  #c{
+    width:200;
+    height:20;
+    top:140;
+    left:100
+  }
+</style>
