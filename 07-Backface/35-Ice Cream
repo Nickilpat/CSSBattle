@@ -1,0 +1,27 @@
+<div i></div>
+<div s></div>
+<style>
+  body{
+    background:#293462;
+    display:flex;
+    justify-content:center;
+  }
+  div {
+    position:absolute;
+  }
+  [i]{
+    top:50;
+    width: 100px;
+    height: 150px;
+    border-radius:50px 50px 20px 20px;
+    background: #FFF1C1;
+  }
+  [s]{
+    background:#FE5F55;
+    width:30;
+    height:40;
+    bottom:50;
+    border-radius:0 0 10px 10px;
+    box-shadow: 0 -10px 0 0 #A64942;
+  }
+</style>
