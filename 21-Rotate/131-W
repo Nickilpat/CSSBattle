@@ -1,0 +1,39 @@
+<div u>
+  <div l></div>
+  <div r></div>
+  <div b></div>
+</div>
+<style>
+  body{background:#E38F66}
+  div{
+    width:30;
+    height:100;
+    background:#62306D;
+    position:absolute;
+  }
+  .no{background:none}
+  [u]{
+    background:none;
+    left:95;
+    top:70;
+    filter:drop-shadow(90px 0 0  #FFFBDA)
+  }
+  [l]{
+    border-radius: 15px 15px 0 0
+  }
+  [r]{
+    border-radius: 15px 15px 0 0;
+    left:90;
+  }
+  [b]{
+    width:60;
+    height:30;
+    background:none;
+    left:0;
+    top:100;
+    border-bottom-right-radius:60px;
+    border-bottom-left-radius:60px;
+    border:30px solid #62306D;
+    border-top:0;
+  }
+</style>
