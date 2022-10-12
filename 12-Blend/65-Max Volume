@@ -1,0 +1,49 @@
+<div class="halfCircle"></div>
+<div class="cover"></div>
+<div class="square"></div>
+<div class="triangle"></div>
+<style>
+  body{background:#191919;}
+  div {
+    width: 60px;
+    height: 50px;
+    background: #5DBCF9;
+    position:absolute;
+  }
+  .square{
+    top:125;
+    left:75;
+    border-radius: 10px 
+  }
+  .triangle{
+    width:0;
+    height:0;
+    background:none;
+    left:100px;
+    top:50px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid #5DBCF9;
+  }
+  .halfCircle{
+    top:110;
+    left:185;
+    background:none;
+    border-radius:50%;
+    height:80;
+    width:80;
+    box-shadow: 0 0 0 10px #5DBCF9,
+      0 0 0 25px #191919,
+      0 0 0 35px #5DBCF9,
+      0 0 0 50px #191919,
+      0 0 0 60px #5DBCF9;
+  }
+  .cover{
+    background: #191919;
+    height:200;
+    width:150;
+    top:50;
+    left:75;
+    
+  }
+</style>
