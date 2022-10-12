@@ -1,0 +1,21 @@
+<p></p>
+<a>
+<style>
+  *{
+    background: #5776F6;
+    margin:0;
+    position:absolute;
+    width:500;
+    height:200;
+  }
+  p {
+    background: #191919;
+    top:113;
+    left:-50;
+    rotate:-3.6deg
+  }
+  a{
+    top:188;
+    left:-50;
+    rotate:3.5deg
+  }
