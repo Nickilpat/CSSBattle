@@ -1,0 +1,30 @@
+<div class="left top green"></div>
+<div class="right top yellow"></div>
+<div class="left bottom yellow"></div>
+<div class="right bottom green"></div>
+<style>
+  body{background:#998235}
+  div {
+    width:80px;
+    position:fixed;
+  }
+  .green{background:#1A4341; height: 100px;}
+  .yellow{
+    background:#F3AC3C;
+    height:60px;
+  }
+  .left{
+    left:110px;    
+    border-radius:0 50px;
+  }
+  .right{
+    right:110px;
+    border-radius:50px 0;
+  }
+  .bottom{
+    bottom:60;
+  }
+  .top{
+    top:60px;
+  }
+</style>
