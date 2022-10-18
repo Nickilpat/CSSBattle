@@ -1,0 +1,29 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+  *{background:#6592CF}
+  div {
+    width: 120px;
+    height: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border: 20px solid #060F55;
+    border-bottom: 0;
+    box-sizing: border-box;
+    position:absolute;
+  }
+  [a]{
+    left:40;   
+    top:40;
+  }
+  [b]{
+    right:40;
+    top:40;
+  }
+  [c]{
+    transform:scaleY(-1);
+    bottom:40;
+    left:140
+  }
+</style>
