@@ -1,0 +1,47 @@
+<div oc>
+  <div a o></div>
+  <div b o></div>
+  <div c t></div>
+  <div d t></div>
+</div>
+<style>
+  *{background:#222}  
+  div {
+    
+    height: 30px;
+    position:absolute;
+  }
+  [oc]{
+    top:129;
+    left:135;
+    rotate:-45deg
+  }
+  [o]{
+    background: #F2994A;
+  }
+  [a]{
+    width:100px;
+    border-radius: 10px 0 0 0;
+  }
+  [b]{
+    left:-11.5;
+    transform:rotate(90deg);
+    top:38;
+    width:53;    
+    border-radius: 0 5px 0 0;
+  }
+  [t]{background: #2D9CDB;}
+  [c]{
+    width:100px;
+    border-radius: 0 0 10px 0;
+    top:100;
+    left:-19
+  }
+  [d]{
+    left:40;
+    transform:rotate(270deg);
+    top:60;
+    width:53;    
+    border-radius: 0 5px 0 0;
+  }
+</style>
