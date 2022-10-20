@@ -1,0 +1,35 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+  body{
+    margin:0;
+    background:#6592CF
+  }
+  div{
+    position:fixed;
+  }
+  [a]{
+    width:250;
+    height:250;
+    background:#243D83;
+    top:25;
+    left:75
+  }
+  [b]{
+    background:#6592CF;
+    width:150;
+    height:150;
+    rotate:15deg;
+    top:75;
+    left:125
+  }
+  [c]{
+    background:#243D83;
+    width:75;
+    height:75;
+    top:113;
+    left:163;
+    rotate:30deg;
+  }
+</style>
