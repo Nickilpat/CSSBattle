@@ -1,0 +1,33 @@
+<body bgcolor=#1A4341>
+  <div g></div>
+  <div y></div>
+  <div b></div>
+<style>
+  div{
+    position:fixed;
+  }
+  [g]{
+    width:75;
+    height:150;
+    top:75;
+    left:125;
+    background:#998235;
+    border-radius:100px 0 0 100px;
+  }
+  [y]{
+    width:100;
+    height:100;
+    background:#F3AC3C;
+    left:200;
+    top:50;
+    border-radius:0 100px 0 0;
+  }
+  [b]{
+    background:#0B2429;
+    width:30;
+    height:30;
+    border-radius:50%;
+    top:105;
+    left:155;
+  }
+</style>
