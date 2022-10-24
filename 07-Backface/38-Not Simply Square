@@ -1,0 +1,28 @@
+<div></div>
+<div a></div>
+<div b></div>
+<style>
+  body{
+    background:#293462;
+    margin:0;
+  }  
+  div {
+    width: 200px;
+    height: 200px;
+    background: #FFF1C1;
+  }
+  [a]{
+    background: #FE5F55;
+    width:150px;
+    box-shadow: 50px 0 0 0 #A64942;
+  }
+  [b]{
+    background: #FE5F55;
+    width:100px;
+    height:150px;
+    position:absolute;
+    top:0;
+    right:100px;
+    box-shadow: 0 50px 0 0 #A64942;
+  }
+</style>
