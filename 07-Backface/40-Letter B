@@ -1,0 +1,26 @@
+<div></div>
+<p></p>
+<style>
+  body{
+    background:#6592CF
+  }
+  div{
+    width: 100px;
+    height: 100px;
+    background: #6592CF;
+    inset:0;
+    margin:auto;
+    position:fixed;
+    border-radius:50%;
+    border:solid 50px #243D83
+  }
+  p{
+    width:50px;
+    height:100px;
+    background: #243D83;
+    position:fixed;
+    top:34px;
+    left:100px;
+    box-shadow:50px 0 0 #6592CF;
+  }
+</style
