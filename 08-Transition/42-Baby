@@ -1,0 +1,53 @@
+<div class="head">
+  <div class="hair"></div>
+  <div r class="hair"></div>
+</div>
+<div class="l eye"></div>
+<div class="r eye"></div>
+<div class="mouth"></div>
+<style>
+  body{
+    background:#293462
+  }
+  div {
+    width: 200px;
+    aspect-ratio:1;
+    position:absolute;
+    background:#FFF1C1;
+  }
+  .head{
+    top:50px;
+    left:100px;
+    border-radius:100px 100px 50px 50px;
+    background: #FE5F55;
+    overflow:hidden;
+    
+  }
+  .hair{
+    height:100px;
+    width:100px;
+    border-radius:50%;    
+    top:-50;
+  }
+  .l{
+    left:120;
+  }
+  .r{
+    left:220;
+  }
+  [r]{
+    left:100;
+  }
+  .eye{
+    width:60px;
+    border-radius:50%;
+    top:140;
+  }
+  .mouth{
+    height:10px;
+    width:40px;
+    border-radius:10px;
+    top:220;
+    left:180;
+  }
+</style>
