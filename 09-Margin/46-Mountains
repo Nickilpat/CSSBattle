@@ -15,20 +15,21 @@
     background: #FFF1C1;
     border-radius:50%;
     overflow:hidden;
-    transform:rotate(45deg);
   }
   p{
-    background:#FE5F55;
-    width:150px;
-    height:150px;
     position:relative;
+    width: 0; 
+    height: 0; 
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #FE5F55;
   }
   [a]{
-    top:26;
-    left:100;    
+    top:43;
+    left:-9;    
   }
   [b]{
-    top:-12;  
-    left:71;
+    top:-53;  
+    left:-120;
   }
 </style>
