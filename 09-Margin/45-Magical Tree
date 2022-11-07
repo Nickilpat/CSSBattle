@@ -1,0 +1,33 @@
+<div></div>
+<p></p>
+<a></a>
+<style>
+  body{
+    background:#1A4341;
+    margin:0;
+  }
+  div {
+    width: 90px;
+    height: 120px;
+    position:absolute;
+    left:155px;
+    box-shadow:0 0 0 30px #998235,
+      0 0 0 60px #1A4341,
+      0 0 0 90px #F3AC3C
+  }
+  p{
+    height:30px;
+    width:270px;
+    background:#998235;
+    position:absolute;
+    bottom:14px;
+    left:65;
+  }
+  a{
+    height:100%;
+    width:30px;
+    background:#F3AC3C;
+    position:absolute;
+    left:185px;
+  }
+</style>
