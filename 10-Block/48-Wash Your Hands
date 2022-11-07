@@ -1,0 +1,27 @@
+<div></div>
+<style>
+  body{
+    background:#293462;
+    display:grid;
+    place-items:center;
+  }
+  div{
+    position:relative;
+    top:-10px;
+    width:200px;
+    height:100px;
+    background: #FE5F55;
+    border-radius:20px;
+    box-shadow:0 20px 0 0 #A64942;
+  }
+  div::after{
+    content:'';
+    height:40px;
+    width:140px;
+    background:#A64942;
+    border-radius:20px;
+    position:absolute;
+    top:30px;
+    left:30px;
+  }
+</style>
