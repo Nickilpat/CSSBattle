@@ -1,0 +1,59 @@
+<div m></div>
+<div class="stick" a></div>
+<div class="stick" b></div>
+<div class="stick" c></div>
+<div class="dot" e></div>
+<div class="dot" f></div>
+<div class="dot" g></div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  div{
+    border-radius:50%;
+    background: #F3AC3C;
+    position:absolute;
+    top: 100px;
+    left: 150px;
+  }
+  [m]{
+    width: 100px;
+    height: 100px;
+  }
+  .stick{
+    width:10px;
+    height:180px;
+    border-radius:10px;
+    top:50px;
+    left:195px;
+  }
+  [b]{
+    rotate:60deg;
+    top:55px;
+    left:204px;
+  }
+  [c]{
+    rotate:-60deg;
+    top:65px;
+    left:204px;
+  }
+  .dot{
+    background:#998235;
+    aspect-ratio:1;
+  }
+  [e]{
+    width:30px;
+    top:120px;
+    left:170px;
+  }
+  [f]{
+    width:10px;
+    top:120px;
+    left:220px;    
+  }
+  [g]{
+    width:20px;
+    top:165px;
+    left:190px;
+  }
+</style>
