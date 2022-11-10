@@ -1,0 +1,41 @@
+<div>
+  <a></a>
+  <p l></p>
+  <p r></p>
+</div>
+<style>
+  *{
+    background:#191919;
+    position:absolute;
+    aspect-ratio:1;
+  }
+  div{
+    width: 150px;
+    height: 200px;
+    background: #F2AD43;
+    top:50px;
+    left:125px;
+    border-radius:100px 100px 26px 26px;
+    overflow:hidden;
+  }
+  a{
+    background: #FFF58F;
+    border-radius:50%;
+    width:60px;
+    top:90px;
+    left:45px;
+  }
+  p{
+    width:200px;
+    border-radius:200px;
+    top:84px;
+  }
+  [l]{
+    background:#E08027;
+    left:-100px;
+  }
+  [r]{
+    background:#824B20;
+    left:50px;
+  }
+</style>
