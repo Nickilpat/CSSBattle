@@ -1,0 +1,41 @@
+<p a></p>
+<p b></p>
+<p c></p>
+<p d></p>
+<p e></p>
+<style>
+  body{
+    background:#191919;
+    margin:0;
+  }
+  p{
+    width: 50px;
+    position:absolute;
+    aspect-ratio:1;
+    border: 10px solid #5DBCF9
+  }
+  [a]{
+    border-radius:50% 50% 0 50%;
+    top:38;
+    left:106;
+  }
+  [b]{
+    border-radius:50% 50% 50% 0;
+    top:38;
+    right:104;
+  }
+  [c]{
+    top:98;
+    left:166;
+  }
+  [d]{
+    border-radius:50% 0 50% 50%;
+    bottom:40;
+    left:106;
+  }
+  [e]{
+    border-radius:0 50% 50% 50%;
+    bottom:40;
+    right:104;
+  }
+</style>
