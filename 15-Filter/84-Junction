@@ -1,0 +1,39 @@
+<p class=o a></p>
+<p class=r b></p>
+<p class=r c></p>
+<p class=o d></p>
+<style>
+  body{
+    background:#191919;
+    margin:0
+  }
+  p{
+    position:absolute;
+  }
+  .o{
+    background:#FE5F55;
+    width:40px;
+    height:150px;
+    border-radius:20px;
+    left:180px;
+  }
+  [a]{
+    top:-36px;
+  }
+  [d]{
+    bottom:-36px;
+  }
+  .r{
+    background:#A64942;
+    height:40px;
+    width:200px;
+    border-radius:20px;
+    top:114px;
+  }
+  [b]{
+    left:-20px;
+  }
+  [c]{
+    right:-20px;
+  }
+</style>
