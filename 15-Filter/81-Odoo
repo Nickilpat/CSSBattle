@@ -1,0 +1,34 @@
+<p class="o" a></p>
+<p class="o" b></p>
+<p class="o" c></p>
+<p class="o" d></p>
+<p l></p>
+<style>
+  body{
+    background:#191919
+  }
+  .o{
+    border-radius:50%;
+    aspect-ratio:1;
+    width:40px;
+    position:absolute;
+    border:20px solid #8F8F8F;
+    top:106px;
+  }
+  [a]{
+    border-color:#714B67;
+    left:37px;
+  }
+  [b]{left:119px}
+  [c]{left:201px}
+  [d]{left:283px}
+  [l]{
+    width: 20px;
+    height: 60px;
+    background:#8F8F8F;
+    position:absolute;
+    left:179px;
+    border-radius:10px;
+    top:86px
+  }
+</style>
