@@ -1,0 +1,32 @@
+<b b></b>
+<b a></b>
+<style>
+  b{
+    position:absolute;
+    border-radius:50%;
+    background: #F3AC3C;
+    color: #0E2E2C;
+  }
+  [a]{
+    width: 40;
+    height: 40;
+    top:130;
+    left:180;
+    box-shadow:
+      0 0 0 8px,
+      0 0 0 20px #F3AC3C,
+      0 0 0 30px;
+  }
+  [b]{
+    width:120px;
+    height:120px;
+    top:90;
+    left:140;
+    background: #998235;
+    box-shadow:
+      0 0 0 12px,
+      0 0 0 20px #F3AC3C,
+      0 0 0 34px,
+      0 0 0 40px #F3AC3C,
+      0 0 0 300px ;
+  }
