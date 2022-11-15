@@ -1,0 +1,42 @@
+<div>
+  <p a></p>
+  <p b></p>
+  <p c></p>
+  <p d></p>
+</div>
+<style>
+  body{
+    background:#191919;
+  }
+  div {
+    width: 100px;
+    height: 150px;
+    background: #4F77FF;
+    border-radius:50px 50px 0 0;
+    position:absolute;
+    left:150px;
+    top:75px;
+    overflow:hidden;
+  }
+  p{
+    background:#191919;
+    height:20px;
+    width:150px;
+    position:relative;
+    margin-bottom:4px;
+    margin-top:0px;
+    top:58px;
+  }
+  [a]{
+    left:80px;
+  }
+  [b]{
+    left:60px;
+  }
+  [c]{
+    left:40px;
+  }
+  [d]{
+    left:20px;
+  }
+</style>
