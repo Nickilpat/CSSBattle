@@ -1,0 +1,32 @@
+<div class=light a></div>
+<div class=dark></div>
+<div class=light b></div>
+<style>
+  body{
+    background:#F3AC3C;
+    margin:0;
+  }
+  div{
+    position:relative;
+    width: 100px;
+    aspect-ratio:1;
+    border-radius:50%;
+  }
+  .light{
+    background:#998235;
+    width:400;
+  }
+  .dark{
+    background:#1A4341;
+    width:200;
+    top:-375;
+    left:75;
+    border:25px solid #F3AC3C;
+  }
+  [a]{
+    top:-250;
+  }
+  [b]{
+    top:-500;
+  }
+</style>
