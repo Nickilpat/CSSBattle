@@ -1,0 +1,81 @@
+<section class="flowers">
+  <a></a>
+  <a class="big"></a>
+  <a></a>
+</section>
+<section class="heads">
+  <p></p>
+  <p></p>
+  <p></p>
+  <p class="empty"></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+</section>
+<section class="sticks">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div class="empty"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</section>
+<style>
+  body{
+    background:#6592CF;
+    display:grid;
+    margin:0;
+  }
+  div{
+    width: 10px;
+    height: 50px;
+    background: #243D83;
+  }
+  p{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#243D83;
+  }
+  a{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background: #EEB850;
+  }
+  .big{
+    width:60px;
+    height:60px;
+    transform:translate(-10px, -20px)
+  }
+  .sticks{
+    position:absolute;
+    bottom:110px;
+    left:45px;
+    display: grid;
+    grid-template-columns: 45px 45px 45px 30px 45px 45px 45px 45px;
+    grid-auto-flow: column;
+  }
+  .heads{
+    position:absolute;
+    bottom:134px;
+    left:40px;
+    display: grid;
+    grid-template-columns: 45px 45px 45px 30px 45px 45px 45px 45px;
+    grid-auto-flow: column;
+  }
+  .flowers{
+    position:absolute;
+    bottom:120px;
+    left:30px;
+    display:grid;
+    grid-template-columns: 45px 45px 45px 30px 45px 45px 45px 45px;
+    grid-auto-flow: column;
+  }
+  .empty{
+    visibility:hidden;
+  }
+</style>
