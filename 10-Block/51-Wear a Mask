@@ -1,0 +1,55 @@
+<div class=loop l></div>
+<div class=mask></div>
+<div class=loop r></div>
+<div class="red line" a></div>
+<div class="red line" b></div>
+<div class="red dot"></div>
+<style>
+  body{
+    background:#293462;
+  }
+  div {
+    position:absolute;
+  }
+  .red{
+    background:#FE5F55;
+  }
+  .loop{
+    top:100px;
+    border: 10px solid #FFF1C1;
+    border-radius:30px;
+    width:75px;
+    height:40px;
+  }
+  [l]{
+    left: 65px;
+  }
+  [r]{right:65px;}
+  .mask{
+    background:#FFF1C1;
+    width:150px;
+    height:100px;
+    top:100px;
+    left:125px;
+    border-radius:0 0 50px 50px;
+  }
+  .line{
+    width:40px;
+    height:10px;
+    border-radius:5px;
+    left:145px
+  }
+  [a]{
+    top:120px;
+  }
+  [b]{
+    top:140px;
+  }
+  .dot{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    top:140px;
+    right:145px;
+  }
+</style>
