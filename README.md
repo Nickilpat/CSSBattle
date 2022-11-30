@@ -1,2 +1,2 @@
 # CSSBattle
-Solutions for CSS Battle puzzles from https://cssbattle.dev/
+Legible solutions for CSS Battle puzzles from https://cssbattle.dev/
