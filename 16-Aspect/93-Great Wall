@@ -1,0 +1,59 @@
+<div></div>
+<p></p>
+<a class="left stripe" a></a>
+<a class="tilt" b></a>
+<a class="right stripe" c></a>
+<a class="left stripe" d></a>
+<a class="tilt" e></a>
+<a class="right stripe" f></a>
+<a class="left stripe" g></a>
+<a class="tilt" h></a>
+<a class="right stripe" i></a>
+<style>
+  body{
+    background:#4F77FF;
+    clip-path:circle(29.6%)
+  }
+  div,p,a{position:absolute;}
+  div {
+    width: 250px;
+    height: 250px;
+    background: #191919;
+    top:30px;
+    left:80px;
+  }
+  p{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#F9E492;
+    top:74px;
+    left:140px;
+  }
+  .left{left:50px;}
+  .right{left:220px;}
+  .stripe{
+    background:#F9E492;
+    height:16px;
+    width:150px;
+    z-index:10;
+  }
+  .tilt{
+    background:#D6B73F;
+    width:32px;
+    height:13px;
+    left:194px;
+    transform:rotate(-33deg);
+  }
+  [a]{top:172px;}
+  [b]{top:167px;}
+  [c]{top:159px;}
+  
+  [d]{top:198px;}
+  [e]{top:193px;}
+  [f]{top:185px;}
+  
+  [g]{top:224px;}
+  [h]{top:219px;}
+  [i]{top:211px;}
+</style>
