@@ -1,0 +1,99 @@
+<p a></p>
+<p b></p>
+<p c></p>
+<p d></p>
+<p e></p>
+<p f></p>
+<p g></p>
+<p h></p>
+<p i></p>
+<p j></p>
+<style>
+  body{
+    background:#1A4341;
+  }
+  p {
+    position:absolute;
+  }
+  [a]{
+    width:100px;
+    height:79px;
+    background:#998235;
+    left:150px;
+    bottom:34px;
+    border-radius:0 0 20px 20px;
+  }
+  [b]{
+    width:100px;
+    height:61px;
+    background:#F3AC3C;
+    left:150px;
+    top: 94px;
+    border-radius:20px 20px 0 0;
+  }
+  [c]{
+    width:50px;
+    height:50px;
+    background:#F3AC3C;
+    border-radius:0 0 50% 50%;
+    top:124px;
+    right:149.9;
+  }
+  [d]{
+    width:50px;
+    height:50px;
+    background:#998235;
+    border-radius:50% 50% 0 0;
+    top:124px;
+    left:149.9;
+  }
+  [e]{
+    width:50px;
+    height:25px;
+    background:#F3AC3C;
+    border-radius:10px 10px 0 0;
+    top:74px;
+    left:175
+  }
+  [f]{
+    width:20px;
+    height:20px;
+    background:#F3AC3C;
+    left:190px;
+    top:54;
+  }
+  [g]{
+    width:150px;
+    height:20px;
+    border-radius:10px;
+    background:#F3AC3C;
+    top:34px;
+    left:150px;
+  }
+  [h]{
+    background:#F3AC3C;
+    top:34px;
+    width:20px;
+    height:40px;
+    border-radius:10px;
+    right:100px;
+  }
+  [i]{
+    background:#998235;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    right:100px;
+    top:84
+  }
+  [j]{
+    background:#998235;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    right:100px;
+    top:114px;
+  }
+</style>
+
+
