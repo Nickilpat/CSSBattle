@@ -1,0 +1,28 @@
+<p> 
+<a> 
+<style>
+  * {
+  background: #09042a;
+}
+
+body {
+  margin: 75;
+}
+
+p, a {
+  border-radius: 1in;
+  width: 150;
+  height: 150;
+}
+p {
+  background: #7b3f61;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 100px 0 #e78481;
+}
+
+a {
+  position: absolute;
+  left: 100;
+}
+</style>
