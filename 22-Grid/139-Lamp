@@ -1,0 +1,21 @@
+<p>
+<body bgcolor="#E38F66">
+<style>
+  p{
+    position:absolute;
+    top:74;
+    left:136;
+    border-bottom: 120px solid #FFFBDA;
+	border-left: 33px solid transparent;
+	border-right: 32px solid transparent;
+	width:62;
+  }
+  p:after{
+    content:'';
+    background:#62306D;
+    width:10;
+    height:90;
+    position:fixed;
+    bottom:0;
+    left:195
+  }
