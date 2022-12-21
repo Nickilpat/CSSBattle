@@ -1,0 +1,32 @@
+<p><body bgcolor="#4F77FF">
+<style>
+  p{
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius:50%;
+    position:fixed;
+    top:34;
+    left:160;
+  }
+  p:before,p:after{
+    content:'';
+    position:fixed;
+  }
+  p:after{
+    width:80;
+    height:80;
+    border-radius:50%;
+    background:#4F77FF;
+    top:90
+  }
+  p:before{
+    width:250;
+    height:250;
+    z-index:2;
+    background:#1038BF;
+    top:189;
+    left:75;
+    rotate:45deg;
+  }
+</style>
